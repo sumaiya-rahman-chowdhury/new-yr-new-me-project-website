@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('/images/banner/banner2.png');
+    background-position: center;
+}
+
+.main-content {
+    width: 50%;
+    text-align: right;
+    margin-right: 220px;
+
+    margin-bottom: 150px;
+}
+
+.bttn-primary {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0px;
+    margin-top: 32px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.main-title {
+    color: var(--dark-01, #151414);
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 200px;
+}
+
+.main-description {
+    color: var(--dark-02, #444343);
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.main-title-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.descrition {
+    margin-left: 87px;
+    margin-right: 220px;
+
+}
+
+.img {
+    margin-left: 150px;
+    /* background-image: url('/images/gradient1.png'); */
+}
+
+.title-2 {
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.paragraph {
+    margin-top: 24px;
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 16pxs;
+}
+
+.paragraph-2 {
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 8px;
+}
+
+i {
+    color: #16D887;
+}
+
+.headline {
+    text-align: center;
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 49.7px;
+    padding: 0px 120px;
+}
+
+.skill-name {
+    text-align: center;
+}
+
+.myPlan-para {
+    color: var(--dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.myplan-headline {
+    color: var(--dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.banner {
+    padding: 0px 120px;
+    border-radius: 8px;
+    background:url('images/watch.png'),
+        linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    background-size: cover;
+    height: 300px;
+    padding: 0px 120px;
+    margin: 124px 166px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-blend-mode: overlay;
+
+}
+
+.banner-headline {
+
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bttn-primary-2 {
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
