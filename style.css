@@ -15,7 +15,7 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-image: url('/images/banner/banner2.png');
+    background-image: url('images/banner/banner2.png');
     background-position: center;
 }
 
